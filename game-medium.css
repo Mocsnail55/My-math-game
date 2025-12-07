@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(245, 173, 39);
+}
+
+
+#Timer{
+    font-size: 40px;
+}
+.input-box{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 400px;
+
+    
+}
+
+.question {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+   
+}
