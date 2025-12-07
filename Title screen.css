@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+  background: radial-gradient(circle, rgba(26, 55, 199, 1) 0%, rgba(25, 17, 84, 1) 34%);
+}
+
+
+
+#Title-text{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Difficulty-selector{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+   
+}
+
+
+
+#buttonId-easy {
+  font-size:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width:113px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#3b6e22;
+  font-weight:bold;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  box-shadow:inset 0px 1px 0px -2px #9acc85;
+  background:linear-gradient(#74ad5a, #68a54b);
+}
+
+#buttonId-easy:hover {
+  background: linear-gradient(#68a54b, #74ad5a);
+}
+
+#buttonId-medium {
+  font-size:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width:113px;
+  height:50px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#598d40;
+  font-weight:bold;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  box-shadow:inset 0px 1px 0px -2px #ca8c46;
+  background:linear-gradient(#cf8320, #ffa530);
+}
+
+#buttonId-medium:hover {
+  background: linear-gradient(#c57f15, #d18228);
+}
+
+#buttonId-impossible {
+  font-size:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width:113px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#3b6e22;
+  font-weight:bold;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  box-shadow:inset 0px 1px 0px -2px #9acc85;
+  background:linear-gradient(#6c1a7c, #a524a5);
+}
+
+#buttonId-impossible:hover {
+  background: linear-gradient(#8b1796, #be3eb4);
+}
+
